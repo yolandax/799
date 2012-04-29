@@ -243,7 +243,7 @@ namespace SkeletalTracking
  
         }
 
-        private void ScalePosition(FrameworkElement element, Joint joint)
+        /*private void ScalePosition(FrameworkElement element, Joint joint)
         {
             //convert the value to X/Y
             //Joint scaledJoint = joint.ScaleTo(1280, 720); 
@@ -255,7 +255,7 @@ namespace SkeletalTracking
             Canvas.SetTop(element, scaledJoint.Position.Y); 
             
             
-        }
+        }*/
 
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
