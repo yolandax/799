@@ -1,0 +1,16 @@
+﻿<Window x:Class="SkeletalTracking.FaceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Learning Mode for Body" Height="1000" Width="1000" Loaded="Window_Loaded" 
+        xmlns:my="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" 
+        Closing="Window_Closing" >
+    <Canvas Name="MainCanvas">
+        <my:KinectColorViewer Canvas.Left="200" Canvas.Top="200" Width="100" Height="100" Name="kinectColorViewer1" 
+                              Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" />
+        <my:KinectSensorChooser Canvas.Left="250" Canvas.Top="380" Name="kinectSensorChooser1" Width="114" Height="90" />
+        
+        <Image Name="image1"  Canvas.Left="35" Canvas.Top="34" Height="263" Width="352"  />
+
+
+    </Canvas>
+</Window>
