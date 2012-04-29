@@ -364,7 +364,7 @@ namespace SkeletalTracking
             imSource.Save("../imagelm.jpg", ImageFormat.Jpeg);
             ImageSource imageSource = new BitmapImage(new Uri("../imagelm.jpg"));
             image1.Source = imageSource;
-
+            ///
         }
 
     }
