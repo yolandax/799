@@ -357,9 +357,13 @@ namespace SkeletalTracking
             CvInvoke.cvCircle(newimage, sibai1, 1, color, 2, Emgu.CV.CvEnum.LINE_TYPE.CV_AA, 0);
             CvInvoke.cvCircle(newimage, sibai2, 1, color, 2, Emgu.CV.CvEnum.LINE_TYPE.CV_AA, 0);
 
-            image1.Source = ToBitmapSource(newimage);
-
-
+            BitmapSource imSource;
+            //Change the path
+           
+            imSource = ToBitmapSource(newimage);
+            imSource.Save("../imagelm.jpg", ImageFormat.Jpeg);
+            ImageSource imageSource = new BitmapImage(new Uri("../imagelm.jpg"));
+            image1.Source = imageSource;
 
         }
 

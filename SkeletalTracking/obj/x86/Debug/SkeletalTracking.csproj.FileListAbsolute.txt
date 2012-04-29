@@ -108,3 +108,5 @@ C:\Users\xy\Desktop\KinectforWindowsSDKV1\5.Skeletal Tracking\SkeletalTracking_j
 C:\Users\xy\Desktop\KinectforWindowsSDKV1\5.Skeletal Tracking\SkeletalTracking_junshen\SkeletalTracking\bin\Debug\Emgu.CV.UI.xml
 C:\Users\xy\Desktop\KinectforWindowsSDKV1\5.Skeletal Tracking\SkeletalTracking_junshen\SkeletalTracking\bin\Debug\Emgu.Util.xml
 C:\Users\xy\Desktop\KinectforWindowsSDKV1\5.Skeletal Tracking\SkeletalTracking_junshen\SkeletalTracking\obj\x86\Debug\SkeletalTracking_Content.g.cs
+C:\Users\Administrator\Desktop\799\SkeletalTracking\obj\x86\Debug\SkeletalTracking.exe
+C:\Users\Administrator\Desktop\799\SkeletalTracking\obj\x86\Debug\SkeletalTracking.pdb
